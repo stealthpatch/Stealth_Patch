@@ -4,9 +4,7 @@ Load any patch in Black Ops you want, completely undetected.
 Based on [LinkerMod](https://github.com/Nukem9/LinkerMod).
 
 ## Install
-When it is ready for release, this part will be updated. It should be as simple as installing game_mod in the end.
-
-This will be only available for Steam copies of the game.
+Instructions not available at this time. However, keep in mind that this will be only available for Steam copies of the game.
 
 ## Why?
 Why not? It was only a matter of time until someone from outside the community came in and made someting like this.
