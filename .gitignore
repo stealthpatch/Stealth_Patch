@@ -1,0 +1,10 @@
+**/.vs/*
+**/obj/*
+**/bin/*
+**/packages/*
+**/x64/*
+**/build/*
+**/Release/*
+**/Debug/*
+**/Production/*
+*.bat
