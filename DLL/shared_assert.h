@@ -20,6 +20,9 @@
 
 static void shared_assert(const char* File, int Line, const char* Format, ...)
 {
+#if RADIANT_MOD
+	return;
+#endif
 	char buffer[4096];
 	char message[4096];
 

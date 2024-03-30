@@ -1,7 +1,6 @@
 #include "stdafx.h"
-#include "shared_assert.h"
 
-bool GameMod_IsGermanBinary(void)
+static bool IsGermanBinary(void)
 {
 	// The location of the PDB string in the **German binary**
 	// Note: This will point to arbitrary data in any other version
@@ -27,7 +26,7 @@ BOOL StealthPatch_Init(HMODULE hModule)
 	//
 	// Make sure that the user is not running the German version of Black Ops
 	//
-	ASSERT_MSG(!GameMod_IsGermanBinary(), "The German version of Call of Duty: Black Ops is not supported!");
+	ASSERT_MSG(!IsGermanBinary(), "The German version of Call of Duty: Black Ops is not supported!");
 
 	//
 	// Disable STDOUT buffering
@@ -38,16 +37,6 @@ BOOL StealthPatch_Init(HMODULE hModule)
 	// Bypass CEG's code hashes
 	//
 	Patch_CEG();
-
-	//
-	// Enable custom exception filter 
-	//
-	//Patch_ExceptionFilter(PrivateUnhandledExceptionFilter, hModule);
-
-	//
-	// Add stack trace info to Sys_OutOfMemErrorInternal
-	//
-	//Detours::X86::DetourFunction((PBYTE)0x004CFC30, (PBYTE)&Sys_OutOfMemErrorInternal);
 
 	//
 	// Sys_CheckCrashOrRerun, EAX = TRUE
@@ -75,7 +64,7 @@ BOOL StealthPatch_Init(HMODULE hModule)
 	PatchMemory(0x00616628, (PBYTE)"\xEB", 1);// Runframe
 
 	//
-	// Do the thing.
+	// Bring power to the players.
 	//
 	//Detours::X86::DetourFunction((PBYTE)0x004C8890, (PBYTE)&Com_LoadLevelFastFiles);
 

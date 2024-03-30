@@ -8,8 +8,6 @@
 #include <Windows.h>
 #include <string>
 
-#include "../Shared/Detours/Detours.h"
-
 #include "shared_assert.h"
 
 static void PatchMemory(ULONG_PTR Address, PBYTE Data, SIZE_T Size)

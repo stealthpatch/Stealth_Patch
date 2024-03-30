@@ -59,6 +59,9 @@ namespace Detours
 
 	namespace X86
 	{
+		// hi
+		void test();
+
 		// Redirects a single static function to another
 		uint8_t		*DetourFunction(uint8_t *Target, uint8_t *Detour, X86Option Options = X86Option::USE_JUMP);
 

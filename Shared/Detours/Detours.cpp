@@ -2,6 +2,15 @@
 
 namespace Detours
 {
+
+	namespace X86
+	{
+		void test()
+		{
+			MessageBox(0, L"Gay", L"Gay", MB_OK);
+		}
+	}
+
 	uint32_t GlobalOptions;
 
 	void SetGlobalOptions(uint32_t Options)

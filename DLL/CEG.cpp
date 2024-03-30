@@ -91,7 +91,7 @@ void Patch_CEG()
 	PatchMemory(0x009A29B0, (PBYTE)"\xB8\x01\x00\x00\x00\xC3", 6);
 	PatchMemory(0x009A29E0, (PBYTE)"\xB8\x01\x00\x00\x00\xC3", 6);
 
-	//Detours::X86::DetourFunction((PBYTE)0x8EE640, (PBYTE)&sub_8EE640);	// Patch intentional nullptr
+	Detours::X86::DetourFunction((PBYTE)0x8EE640, (PBYTE)&sub_8EE640);	// Patch intentional nullptr
 
 	FixupFunction(0x0060CC10, 0x004F20F0);		// CEGObfuscate<LiveStats_Init> => LiveStats_Init
 	FixupFunction(0x0063DCC0, 0x0062DD40);		// CEGObfuscate<LiveStats_ResetStats> => LiveStats_ResetStats
