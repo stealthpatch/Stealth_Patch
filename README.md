@@ -62,14 +62,14 @@ Since COTD's strats are much different to other maps, multiple weapons will have
 - Before round 86, average will be about `20-25` hits.
 - On round 86 and beyond, average will be about `17-21` hits.
 
-### Shangri-La
+### Shangri-La (`zombie_temple_patch_override.ff`)
 
-### Moon
+### Moon (`zombie_moon_patch_override.ff`)
 
-### Nacht Der Untoten
+### Nacht Der Untoten (`zombie_cod5_prototype_patch_override.ff`)
 
-### Verruckt
+### Verruckt (`zombie_cod5_asylum_patch_override.ff`)
 
-### Shi No Numa
+### Shi No Numa (`zombie_cod5_sumpf_patch_override.ff`)
 
-### Der Riese
+### Der Riese (`zombie_cod5_factory_patch_override.ff`)
