@@ -15,7 +15,11 @@ They go in the `zone/Common` directory of your Steam game folder.
 ## Patch changes
 What do the patches change? Well, since there are many, every listed detail for every map stealth patch will be listed below.
 
-For weighted trade averages, you can sometimes get the weapon earlier, as the game can give it to you earlier. This is intended behavior.
+#### Weighted Trade Averages
+- Natural bad trades from the game have been removed.
+- Added artificial good trades.
+- Added artificial bad trades, at a low percentage.
+- You can get naturally good trades from the game.
 
 ### Kino Der Toten (`zombie_theater_patch_override.ff`)
 - Increased odds for box location to be either fire trap room or dressing room, it's 50/50 if the weight sets in.
@@ -45,22 +49,7 @@ For weighted trade averages, you can sometimes get the weapon earlier, as the ga
 - Drop cycle will always make sure double maxes will not happen.
 - During the entire game, the following has been changed with the perk drop:
   - For every perk you do not have, you have a good chance of getting a good perk, this is the order it will TRY to give in (not guaranteed): `Juggernog, Mule Kick, Quick Revive, Double Tap, PHD, Staminup, Speed Cola, Deadshot`.
-
-### Weighted trade averages
-Since COTD's strats are much different to other maps, multiple weapons will have weighted averages.
-
-#### Scavenger
-- Before round 86, average will be about `20-22` hits.
-
-#### M72 Law
-- Before round 80, average will be about `21-25` hits.
-
-#### Ray Gun
-- Before round 88, average will be about `20-23` hits.
-
-#### VR11
-- Before round 86, average will be about `20-25` hits.
-- On round 86 and beyond, average will be about `17-21` hits.
+- Weighted Trade Averages for the `Ray Gun, Scavenger, M72 Law and VR11`. These weapons' averages will dynamically update as you progress through the game.
 
 ### Shangri-La (`zombie_temple_patch_override.ff`)
 
