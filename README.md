@@ -1,5 +1,5 @@
 # StealthPatch
-Load any patch in Black Ops you want, completely undetected.
+Load any patch for Black Ops that you want, completely undetected.
 
 Based on [LinkerMod](https://github.com/Nukem9/LinkerMod).
 
