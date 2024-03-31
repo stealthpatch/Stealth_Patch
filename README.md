@@ -21,7 +21,7 @@ For weighted trade averages, you can sometimes get the weapon earlier, as the ga
 - Increased odds for box location to be either fire trap room or dressing room, it's 50/50 if the weight sets in.
 - Weighted setup, chances of getting a weapon for the setup from the box is 15%.
 - Drop cycle will always make sure double maxes will not happen.
-- Weighted Thundergun average: `19-21` hits.
+- Weighted Thundergun average: `19-21` hits, has 1% chance to get a 40-110 hit trade.
 - Weighted Crossbow average: `25-30` hits.
 
 ### "FIVE" (`zombie_pentagon_patch_override.ff`)
