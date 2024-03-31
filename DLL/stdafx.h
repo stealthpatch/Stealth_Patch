@@ -8,10 +8,12 @@
 #define PCH_H
 
 // add headers that you want to pre-compile here
-#define _WINSOCK_DEPRECATED_NO_WARNINGS
-#define WIN32_LEAN_AND_MEAN
-
 #include "framework.h"
+
+#pragma comment(lib, "../build/Release/Detours.lib")
+#include "../Shared/Detours/Detours.h"
+
+#include "shared_utility.h"
 
 #include <windows.h>
 #include <stdio.h>
@@ -24,15 +26,15 @@
 #include <unordered_map>
 #include <algorithm>
 
+// patches
 #include "CEG.h"
+#include "SteamPatches.h"
 
-#pragma comment(lib, "../build/Release/Detours.lib")
-#include "../Shared/Detours/Detours.h"
-
+// zone patches
 #include "common.h"
-#include "shared_utility.h"
-#include "db_registry.h"
-#include "vanilla.h"
 #include "dvar.h"
+#include "threads.h"
+#include "db_registry.h"
+#include "ui_main_pc.h"
 
 #endif //PCH_H

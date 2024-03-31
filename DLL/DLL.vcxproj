@@ -149,12 +149,15 @@
   <ItemGroup>
     <ClInclude Include="CEG.h" />
     <ClInclude Include="common.h" />
-    <ClInclude Include="db_registry.h" />
-    <ClInclude Include="dvar.h" />
     <ClInclude Include="framework.h" />
     <ClInclude Include="shared_assert.h" />
     <ClInclude Include="shared_utility.h" />
     <ClInclude Include="stdafx.h" />
+    <ClInclude Include="SteamPatches.h" />
+    <ClInclude Include="db_registry.h" />
+    <ClInclude Include="dvar.h" />
+    <ClInclude Include="threads.h" />
+    <ClInclude Include="ui_main_pc.h" />
     <ClInclude Include="vanilla.h" />
   </ItemGroup>
   <ItemGroup>
@@ -167,6 +170,9 @@
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
     </ClCompile>
+    <ClCompile Include="SteamPatches.cpp" />
+    <ClCompile Include="db_registry.cpp" />
+    <ClCompile Include="threads.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
