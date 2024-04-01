@@ -16,9 +16,7 @@ They go in the `zone/Common` directory of your Steam game folder.
 What do the patches change? Well, since there are many, every listed detail for every map stealth patch will be listed below.
 
 #### Weighted Trade Averages
-- Natural bad trades from the game have been removed.
 - Added artificial good trades.
-- Added artificial bad trades, at a low percentage.
 - You can get naturally good trades from the game.
 
 ### Kino Der Toten (`zombie_theater_patch_override.ff`)
