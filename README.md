@@ -17,6 +17,7 @@ What do the patches change? Well, since there are many, every listed detail for 
 
 #### Weighted Trade Averages
 - Added artificial good trades.
+- Added random artificial one hit trades.
 - You can get naturally good trades from the game.
 
 ### Kino Der Toten (`zombie_theater_patch_override.ff`)
