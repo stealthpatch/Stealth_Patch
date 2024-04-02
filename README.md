@@ -48,7 +48,8 @@ What do the patches change? Well, since there are many, every listed detail for 
   - For every perk you do not have, you have a good chance of getting a good perk, this is the order it will TRY to give in (not guaranteed): `Juggernog, Mule Kick, Quick Revive, Double Tap, PHD, Staminup, Speed Cola, Deadshot`.
 - Weighted Trade Averages for the `Ray Gun, Scavenger, M72 Law and VR11`. These weapons' averages will change based on their ability to be used on certain rounds.
 
-<!--- ### Shangri-La (`zombie_temple_patch_override.ff`) -->
+<!---
+### Shangri-La (`zombie_temple_patch_override.ff`)
 
 ### Moon (`zombie_moon_patch_override.ff`)
 
@@ -59,3 +60,4 @@ What do the patches change? Well, since there are many, every listed detail for 
 ### Shi No Numa (`zombie_cod5_sumpf_patch_override.ff`)
 
 ### Der Riese (`zombie_cod5_factory_patch_override.ff`)
+-->
