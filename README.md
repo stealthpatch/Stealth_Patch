@@ -24,12 +24,11 @@ What do the patches change? Well, since there are many, every listed detail for 
 - Increased odds for box location to be either fire trap room or dressing room, it's 50/50 if the weight sets in.
 - Weighted setup, chances of getting a weapon for the setup from the box is 15%.
 - Drop cycle will always make sure double maxes will not happen.
-- Weighted Thundergun average: `19-21` hits, has 1% chance to get a 40-110 hit trade.
-- Weighted Crossbow average: `25-30` hits.
+- Weighted Thundergun & Crossbow trades after round 50.
 
 ### "FIVE" (`zombie_pentagon_patch_override.ff`)
 - Weighted setup, chances of getting a weapon for the setup from the box is 15%.
-- Drop cycle will always make sure double maxes will not happen.
+- Drop cycle will filter out max ammos being first in cycle.
 - Every time you pull the elevator, you have a 15% chance to get windows set.
 
 ### Ascension (`zombie_cosmodrome_patch_override.ff`)
@@ -37,9 +36,8 @@ What do the patches change? Well, since there are many, every listed detail for 
 - Drop cycle will always make sure double maxes will not happen.
 - Monkeys are less likely to go for Staminup.
 - Before round 70, if you do not have PHD Flopper, that is the next perk you will get from the monkeys.
-- Weighted Thundergun average: `17 - 21` hits.
-- Weighted Crossbow average: `25-30` hits.
-- During the setup, the following has been changed with the perk drop:
+- Weighted Thundergun & Crossbow trades.
+- During the setup, the following has been changed with the random perk drop:
   - First drop has better chance to give you Juggernog.
   - Second drop has better chance to give you Speed Cola.
 
@@ -48,9 +46,9 @@ What do the patches change? Well, since there are many, every listed detail for 
 - Drop cycle will always make sure double maxes will not happen.
 - During the entire game, the following has been changed with the perk drop:
   - For every perk you do not have, you have a good chance of getting a good perk, this is the order it will TRY to give in (not guaranteed): `Juggernog, Mule Kick, Quick Revive, Double Tap, PHD, Staminup, Speed Cola, Deadshot`.
-- Weighted Trade Averages for the `Ray Gun, Scavenger, M72 Law and VR11`. These weapons' averages will dynamically update as you progress through the game.
+- Weighted Trade Averages for the `Ray Gun, Scavenger, M72 Law and VR11`. These weapons' averages will change based on their ability to be used on certain rounds.
 
-### Shangri-La (`zombie_temple_patch_override.ff`)
+<!--- ### Shangri-La (`zombie_temple_patch_override.ff`) -->
 
 ### Moon (`zombie_moon_patch_override.ff`)
 
