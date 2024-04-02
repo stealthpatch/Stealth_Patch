@@ -21,7 +21,6 @@ What do the patches change? Well, since there are many, every listed detail for 
 - You can get naturally good trades from the game.
 
 ### Kino Der Toten (`zombie_theater_patch_override.ff`)
-- Increased odds for box location to be either fire trap room or dressing room, it's 50/50 if the weight sets in.
 - Weighted setup, chances of getting a weapon for the setup from the box is 15%.
 - Drop cycle will filter out max ammos being first in cycle.
 - Weighted Thundergun & Crossbow trades after round 50.
