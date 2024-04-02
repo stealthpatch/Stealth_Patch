@@ -23,7 +23,7 @@ What do the patches change? Well, since there are many, every listed detail for 
 ### Kino Der Toten (`zombie_theater_patch_override.ff`)
 - Increased odds for box location to be either fire trap room or dressing room, it's 50/50 if the weight sets in.
 - Weighted setup, chances of getting a weapon for the setup from the box is 15%.
-- Drop cycle will always make sure double maxes will not happen.
+- Drop cycle will filter out max ammos being first in cycle.
 - Weighted Thundergun & Crossbow trades after round 50.
 
 ### "FIVE" (`zombie_pentagon_patch_override.ff`)
@@ -33,7 +33,7 @@ What do the patches change? Well, since there are many, every listed detail for 
 
 ### Ascension (`zombie_cosmodrome_patch_override.ff`)
 - Weighted setup, chances of getting a weapon for the setup from the box is 20%.
-- Drop cycle will always make sure double maxes will not happen.
+- Drop cycle will filter out max ammos being first in cycle.
 - Monkeys are less likely to go for Staminup.
 - Before round 70, if you do not have PHD Flopper, that is the next perk you will get from the monkeys.
 - Weighted Thundergun & Crossbow trades.
@@ -43,7 +43,7 @@ What do the patches change? Well, since there are many, every listed detail for 
 
 ### Call of The Dead (`zombie_coast_patch_override.ff`)
 - Weighted setup, chances of getting a weapon for the setup from the box is 15%.
-- Drop cycle will always make sure double maxes will not happen.
+- Drop cycle will filter out max ammos being first in cycle.
 - During the entire game, the following has been changed with the perk drop:
   - For every perk you do not have, you have a good chance of getting a good perk, this is the order it will TRY to give in (not guaranteed): `Juggernog, Mule Kick, Quick Revive, Double Tap, PHD, Staminup, Speed Cola, Deadshot`.
 - Weighted Trade Averages for the `Ray Gun, Scavenger, M72 Law and VR11`. These weapons' averages will change based on their ability to be used on certain rounds.
