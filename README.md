@@ -69,10 +69,6 @@ Extract `stealth_patch.zip` to the root of your Steam game folder, and run `BO_P
   <summary><h3> Ascension (Click me) </h3></summary>
   
   - Weighted setup, chances of getting a weapon for the setup from the box is 10%.
-  - Monkeys are less likely to go for Staminup.
-  - During the setup, the following has been changed with the random perk drop:
-    - First drop has better chance to give you Juggernog.
-    - Second drop has better chance to give you Speed Cola.
 
   #### Stealth Trade Dvars
   Stealth trading kicks in on round 60.
