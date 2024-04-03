@@ -149,6 +149,7 @@ Extract `stealth_patch.zip` to the root of your Steam game folder, and run `BO_P
   - Weighted setup, chances of getting a weapon for the setup from the box is 10%.
   
   #### Stealth Trade Dvars
+  Stealth trading kicks in on round 50.
   - Waffe: `bind (key) "cg_stealthGiveWaffe 1"`
   - Crossbow: `bind (key) "cg_stealthGiveCrossbow 1"`
 </details>
