@@ -105,7 +105,7 @@ Extract `stealth_patch.zip` to the root of your Steam game folder, and run `BO_P
   
   #### Stealth Trade Dvars
   Stealth trading kicks in on round 70.
-  - Shrink Gun: `bind (key) "cg_stealthGiveShrinkGun 1"`
+  - Shrink Ray: `bind (key) "cg_stealthGiveShrinkRay 1"`
   - Crossbow: `bind (key) "cg_stealthGiveCrossbow 1"`
 </details>
 
