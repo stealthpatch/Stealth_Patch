@@ -8,7 +8,7 @@ Extract `stealth_patch.zip` to the root of your Steam game folder, and run `BO_P
 
 <details>
   <summary><h2>What is the Stealth Patch? (click me)</h2></summary>
-  The stealth patch is a patch that is completely undetectable.
+  The stealth patch is a patch loader that is completely undetectable.
   
   How it works is it loads game files on top of the original ones, meaning any differences when using decompiled game files are now irrelevant.
 </details>
