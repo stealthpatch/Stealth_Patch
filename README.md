@@ -63,8 +63,6 @@ Stealth trading kicks in on round 60.
 
 ### Call of The Dead (`zombie_coast_patch_override.ff`)
 - Weighted setup, every hit the chances of getting a weapon for the setup from the box is 15%.
-- During the entire game, the following has been changed with the perk drop:
-  - For every perk you do not have, you have a good chance of getting a good perk, this is the order it will TRY to give in (not guaranteed): `Juggernog, Mule Kick, Quick Revive, Double Tap, PHD, Staminup, Speed Cola, Deadshot`.
 
 #### Stealth Trade Dvars
 Stealth trading kicks in on round 50.
