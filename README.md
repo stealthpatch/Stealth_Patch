@@ -16,7 +16,7 @@ Extract `stealth_patch.zip` to the root of your Steam game folder, and run `BO_P
 <details>
   <summary><h2>What patches are compatible? (click me)</h2></summary>
   
-  Previously created map patches will work, however it is recommended that you use the universal stealth patch for the map you want to play provided with the [latest release](https://github.com/BlackOpsModding/StealthPatch/releases/latest), they will give the best results.
+  Previously created map patches will work, however it is recommended that you use the stealth patch for the map you want to play provided with the [latest release](https://github.com/BlackOpsModding/StealthPatch/releases/latest), they will give the best results.
 </details>
 
 <details>
