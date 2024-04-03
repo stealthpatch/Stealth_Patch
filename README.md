@@ -62,7 +62,7 @@ Extract `stealth_patch.zip` to the root of your Steam game folder, and run `BO_P
   <summary><h3> "FIVE" (Click me) </h3></summary>
 
   - Weighted setup, chances of getting a weapon for the setup from the box is 15%.
-  - Every time you pull the elevator, you have a 15% chance to get windows set.
+  <!--- - Every time you pull the elevator, you have a 15% chance to get windows set. -->
 </details>
 
 <details>
