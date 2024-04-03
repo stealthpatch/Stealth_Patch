@@ -23,7 +23,7 @@ What do the patches change? Well, since there are many, every listed detail for 
 ### Stealth Trades
 Across each map, we have created dvars that will give you the weapon you desire from the box, and how you can use this is with keybinds just like you would with changing FOV or FPS.
 
-**Essentially, this allows you to control your trade average at any point in the game past the requirement set in the patch.**
+**Essentially, this allows you to control your trade average at any point in the game on or beyond the round required set in the patch.**
 
 As an example, for Nacht Der Untoten with the Thundergun:
 
