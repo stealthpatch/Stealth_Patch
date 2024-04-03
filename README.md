@@ -117,8 +117,8 @@ Extract `stealth_patch.zip` to the root of your Steam game folder, and run `BO_P
   #### Stealth Trade Dvars
   Stealth trading kicks in on round 50.
   - Wave Gun: `bind (key) "cg_stealthGiveWaveGun 1"`
-  - QED: `bind (key) "cg_stealthGiveWaveGun 1"`
-  - Gershes: `bind (key) "cg_stealthGiveWaveGun 1"`
+  - QED: `bind (key) "cg_stealthGiveQED 1"`
+  - Gershes: `bind (key) "cg_stealthGiveGershes 1"`
 </details>
 
 <details>
