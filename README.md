@@ -49,6 +49,7 @@ Extract `stealth_patch.zip` to the root of your Steam game folder, and run `BO_P
 
 <details>
   <summary><h3> Kino Der Toten (Click me) </h3></summary>
+  
   - Weighted setup, chances of getting a weapon for the setup from the box is 15%.
   - Drop cycle will filter out max ammos being first in cycle.
   
