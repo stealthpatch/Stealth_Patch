@@ -1988,7 +1988,7 @@ perk_give_bottle_end( gun, perk )
 
 give_random_perk()
 {
-	if ( patch\_weighted_random_perks::should_give_weighted_perk() && level.script == "zombie_coast" )
+	if ( patch\_weighted_random_perks::should_give_weighted_perk() && level.script == level.stealth_patch_map )
 	{
 		weighted_perk = patch\_weighted_random_perks::get_next_weighted_perk( self );
 		self give_perk( weighted_perk );

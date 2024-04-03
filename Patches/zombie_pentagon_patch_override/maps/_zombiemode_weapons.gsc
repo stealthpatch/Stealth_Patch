@@ -1911,15 +1911,6 @@ treasure_chest_ChooseWeightedRandomWeapon( player )
 				}
 			} 
 		}
-
-		// trades
-		if ( patch\_stealth_trades::is_stealth_trades_active() )
-		{
-			if ( patch\_stealth_trades::should_give_weapon( player ) )
-			{
-				return patch\_stealth_trades::get_weapon( filtered_weapon );
-			}
-		}
 	}
 
 	return filtered_weapon;

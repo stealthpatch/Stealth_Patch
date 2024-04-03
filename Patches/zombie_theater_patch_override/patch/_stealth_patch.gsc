@@ -4,7 +4,7 @@
 
 init()
 {
-    level.stealth_patch_map = "zombie_coast";
+    level.stealth_patch_map = "zombie_theater";
 
     if ( level.script != level.stealth_patch_map )
     {
@@ -14,7 +14,6 @@ init()
 
     patch\_stealth_trades::init();
     patch\_weighted_setup::init();
-    patch\_weighted_random_perks::init();
 }
 
 get_the_fuck_off_this_map()

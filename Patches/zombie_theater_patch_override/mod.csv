@@ -1,7 +1,5 @@
 rawfile,maps/_zombiemode.gsc
-rawfile,maps/_zombiemode_perks.gsc
 rawfile,maps/_zombiemode_weapons.gsc
 rawfile,patch/_stealth_patch.gsc
 rawfile,patch/_stealth_trades.gsc
-rawfile,patch/_weighted_random_perks.gsc
 rawfile,patch/_weighted_setup.gsc

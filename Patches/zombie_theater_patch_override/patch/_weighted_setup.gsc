@@ -4,17 +4,8 @@
 
 init()
 {
-    // give different types of setups
-    weighted_setup_scenarios = array( 
-        array( "ray_gun_zm", "zombie_nesting_dolls" ),
-        array( "ray_gun_zm", "sniper_explosive_zm", "zombie_nesting_dolls" ),
-        array( "sniper_explosive_zm", "zombie_nesting_dolls" ),
-        array( "ray_gun_zm", "m72_law_zm", "zombie_nesting_dolls" ),
-        array( "sniper_explosive_zm", "zombie_nesting_dolls", "m72_law_zm" )
-    );
-
     // randomize the setup scenarios so it looks more legit
-    level.weighted_setup_weapons = weighted_setup_scenarios[ RandomInt(weighted_setup_scenarios.size) ];
+    level.weighted_setup_weapons = array( "ray_gun_zm", "thundergun_zm", "zombie_cymbal_monkey" );
     level.weighted_setup_weapons = array_randomize( level.weighted_setup_weapons );
 
     // chance of getting a weapon 
